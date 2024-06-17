@@ -1,0 +1,84 @@
+/*Exercicio 1*/
+.classe-diferente1{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    transition: 1s;
+}
+
+.classe-diferente1:hover{
+    background-color: brown;
+}
+
+.classe-diferente2{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    transition: 1s;
+}
+.classe-diferente2:hover{
+    background-color:chocolate;
+}
+
+.classe-diferente3{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    transition: 1s;
+}
+
+.classe-diferente3:hover{
+    background-color: blueviolet;
+}
+
+/*Exercicio 2*/
+.borda1{
+    border: 5px solid #000;
+}
+.borda2{
+    border: 10px solid #4b1616;
+}
+.borda3{
+    border: 15px solid #4e5ea3;
+}
+
+/*Exercicio 3*/
+.texto{
+    line-height: 1.5;
+    text-indent: 20px;
+    padding: 10px;
+    width: 300px;
+}
+
+/*Exercicio 4*/
+.alinhar-cabecalho{
+    display: flex;
+    justify-content: space-between;
+}
+
+.background-imagem{
+    background-image: url("../Projecto/assets/instagram.jpeg");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    opacity: 0.5;
+}
+/*Exercicio 7*/
+.organizar {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    background-color: gainsboro;
+}
+
+.organizar li{
+   padding: 10px;
+   cursor: pointer;
+   transition: 0.4s;
+}
+
+.organizar li:hover{
+    background-color: #2b1d1d;
+    color: white;
+ }
